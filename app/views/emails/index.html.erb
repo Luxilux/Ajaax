@@ -1,0 +1,32 @@
+<h1 class="titlePage text-center">Email viewer</h1>
+
+<div class="container">
+  <div class="row rowStyle">
+    <div class="col-lg-6 col-md-6 col-sm-6  leftSide">
+      <h3 class="text-center">Boite de reception</h3>
+      <hr>
+
+      <h2>Messages non lus</h2>
+      <div class="emails" id="read_emails">
+        <%= render @read_emails %>
+
+      </div>
+      <hr>
+
+      <h2>Messages lus </h2>
+      <div class="emails" id="not_read_emails">
+        <%= render @not_read_emails %>
+      </div>
+
+
+
+
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-6 rightSide">
+      <h3 class="text-center">Contenu du message</h3>
+      <hr>
+
+    </div>
+  </div>
+</div>

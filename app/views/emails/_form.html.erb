@@ -1,0 +1,6 @@
+<%= form_for @email, remote: true do |f| %>
+  <%= f.text_field :body %>
+  <%= f.input  :body %>
+  <%= f.submit %>
+<% end %>
+<%= link_to "New Email", new_email_path, id: "new_link", remote: true %>

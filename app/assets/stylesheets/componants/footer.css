@@ -1,0 +1,10 @@
+.footer {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  padding: 15px 0px;
+  box-shadow: 0px -4px 3px wheat;
+}
